@@ -4,6 +4,15 @@ const dateTime = require("node-datetime");
 const dt = dateTime.create();
 const fs = require("fs");
 const formatted = dt.format("Y-m-d H:M:S");
+var folderName = "./logs"
+try {
+  if (!fs.existsSync(folderName)) {
+    fs.mkdirSync(folderName);
+  }
+} catch (err) {
+  console.error(err);
+}
+
 const debug = function (text) {
   console.debug(
     `${grey(`${formatted}`)} || ${chalk.bgBlue("[ DEBUG ]")} ${grey(" :: ")} ${green(
