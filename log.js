@@ -1,9 +1,8 @@
 const { red, green, grey, blue, yellow, black, bold } = require("chalk");
 const chalk = require('chalk')
-const dateTime = require("node-datetime");
-const dt = dateTime.create();
+const dayjs = require("dayjs");
 const fs = require("fs");
-const formatted = dt.format("Y-m-d H:M:S");
+const formatted = dayjs().format("YYYY-MM-DD H:m:s");
 var folderName = "./logs"
 try {
   if (!fs.existsSync(folderName)) {
