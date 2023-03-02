@@ -99,10 +99,10 @@ embeds: [embed],
   });
 };
 
-const error = function (text) {
+this.error = function (text) {
   if (options.color == true) {
     console.error(
-      `${grey(`${formatted}`)} || ${chalk.bgBlue("[ ERROR ]")} ${grey(" :: ")} ${green(
+      `${grey(`${formatted}`)} || ${chalk.bgRed("[ ERROR ]")} ${grey(" :: ")} ${green(
         `${text}`
       )}`
     );
@@ -144,7 +144,7 @@ embeds: [embed],
 this.warn = function (text) {
   if (options.color == true) {
     console.warn(
-      `${grey(`${formatted}`)} || ${chalk.bgBlue("[ WARNING ]")} ${grey(" :: ")} ${green(
+      `${grey(`${formatted}`)} || ${chalk.bgYellow("[ WARNING ]")} ${grey(" :: ")} ${green(
         `${text}`
       )}`
     );

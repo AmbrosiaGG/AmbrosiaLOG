@@ -8,7 +8,12 @@
 * Discord webhook intergration!
 * Logs into file!
 * MongoDB intergration!
+* Adds life to the console via Color!
 
+## Images
+![debug](https://github.com/nova-develoment-team/nova-log-js/blob/main/ReadmeImg/debug.png?raw=true)
+![warn](https://github.com/nova-develoment-team/nova-log-js/blob/main/ReadmeImg/warn.png?raw=true)
+![error](https://github.com/nova-develoment-team/nova-log-js/blob/main/ReadmeImg/error.png?raw=true)
 ## Setup
 ```js
 const novalog = require('nova-log.js')
@@ -48,7 +53,5 @@ log.error('A error message')
 log.warning('A warning message')
 ```
 
-avatar 
-username
-
+![webhook](https://github.com/nova-develoment-team/nova-log-js/blob/main/ReadmeImg/discordwebhook.png?raw=true)
 ### MongoDB in progress!
