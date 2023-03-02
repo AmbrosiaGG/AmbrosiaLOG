@@ -1,14 +1,6 @@
 # ✨ Nova logger ✨
 
-<style>
-      .multicolortext {
-        background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
-      }
-</style>
+
 
 <p>A fast and simple way to add <span class="multicolortext">colored text</span> to your console</p>
 
