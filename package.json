@@ -1,6 +1,6 @@
 {
   "name": "nova-log.js",
-  "version": "1.0.8-E",
+  "version": "1.0.9",
   "description": "A package for creating buetiful logs",
   "main": "log.js",
   "scripts": {
